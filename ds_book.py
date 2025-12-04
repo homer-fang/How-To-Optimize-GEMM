@@ -5,7 +5,7 @@ import requests
 import re
 
 # ================= 配置区域 =================
-API_KEY = os.getenv("DEEPSEEK_API_KEY", "sk-a39c2be083c64437a5adec4a72cfe0d9")
+API_KEY = os.getenv("DEEPSEEK_API_KEY", "这里填写你的api-key")
 API_URL = "https://api.deepseek.com/chat/completions"
 MODEL_NAME = "deepseek-reasoner"
 
